@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/saffron"
+    tools:context=".AFragment">
+
+
+    <TextView
+        android:id="@+id/fragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment A"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/commonMargin"/>
+
+</FrameLayout>
